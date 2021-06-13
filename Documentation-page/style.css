@@ -1,0 +1,37 @@
+#navbar {
+    position: fixed;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+    
+    top: 0px;
+    left: 0px;
+    
+    color: black;
+    background-color: white;
+    padding: 75px 0px;
+  }
+  
+  //Display only in mobile
+
+  @media only screen and (max-width: 800px) {
+    #navbar {
+      position: absolute;
+      max-height: 300px;
+      max-width: 300px;
+      width: 300px;
+      
+      top: 0px;
+      left: 0px;
+      
+      color: black;
+      background-color: white;
+      padding: 75px 0px;
+    }
+    
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 300px;
+    }
+  }
