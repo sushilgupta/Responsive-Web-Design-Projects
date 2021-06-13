@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survery Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Survery Form - Your Favourite Vehicle Type</h1>
+  <p id="description">Thank you for providing us your time. Your opinion matters in selecting type of vehicle.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label"> <b>Name</b> </label> <br>
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+<br>
+      <br>
+
+      <label for="email" id="email-label"><b>Email</b> </label><br>
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+            <br><br>
+            
+            <label for="number" id="number-label"><b>Age</b> </label><br>
+        <input id="number" type="number" min="16" max="110" placeholder="Age">
+      <br>
+          <br>
+          
+          <label for="dropdown"><b>Select your profession</b> </label>
+        <select id="dropdown">
+        <option value="student">Student</option>
+          <option value="private-job">Private Job</option>
+          <option value="govt-job">Government Job</option>
+          <option value="fresher">Fresher</option>
+      </select>
+          <br>
+          <br>
+          
+          <label for="model_type" id="model_type"> <b>Which vehicle type would you prefer to purchase?</b> </label> <br>
+      <input id="model_type" type="radio" id="hatchback" name="model" value="hatchback">
+      <label for="model_type">Hatchback</label> 
+      <br>
+      <input id="model_type" type="radio" id="sedan" name="model" value="hatchback">
+      <label for="model_type">Sedan</label> 
+      <br><input id="model_type" type="radio" id="suv" name="model" value="hatchback">
+      <label for="model_type">SUV</label> 
+      <br>
+      <br>
+      <label for="brand" id="brand"> <b>Which brands would you prefer to buy?</b> </label> 
+      <br>
+      <input type="checkbox" name="brand1" value="tata">
+      <label for="tata">TATA</label> 
+      <br>
+      
+      <input type="checkbox" name="brand2" value="honda">
+      <label for="honda">Honda</label>
+      <br>
+      
+      <input type="checkbox" name="brand3" value="chevrolet">
+      <label for="chevrolet">Chevrolet</label>
+      <br>
+      
+      <input type="checkbox" name="brand4" value="kia">
+      <label for="kia">KIA</label>
+      <br>
+      
+      <input type="checkbox" name="brand5" value="toyota">
+      <label for="toyota">Toyota</label>
+      <br>
+      <br>
+      
+      <label id="text-area"> <b>Additional Comments or Suggestions?</b></label>
+      <br>
+      <textarea id="textarea" name="instructions_suggestions" rows="5" cols="50" placeholder="Enter your comments here"></textarea>
+      <br>
+      <input id="submit" type="submit">
+      
+    </form>
+</body>
+</html>

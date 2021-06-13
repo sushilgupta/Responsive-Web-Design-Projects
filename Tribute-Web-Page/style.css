@@ -1,0 +1,13 @@
+#img-caption {
+    width: 400px;
+    display: inline;
+    text-align: center;
+  }
+  
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }

@@ -1,0 +1,27 @@
+body {
+    font-family: calibri-light;
+    background-color: lightblue;
+    width: 500px;
+    margin: auto;
+  }
+  
+  #survey-form {
+    background: gold;
+    padding: 20px;
+    border-radius: 2rem;
+    
+    margin: auto;
+  }
+  
+  #title {
+    font-family: sans-serif;
+    border-radius: 1px;
+  }
+
+  #title, #description {
+    background: lightgreen;
+    padding: 20px;
+    border: 1px solid lightseagreen;
+    margin: auto;
+    border-width: thick;
+  }
